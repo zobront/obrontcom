@@ -6,8 +6,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <img src="obront.jpg" className={styles.headshot} />
-        <h1 className={styles.title}>Hi, I'm Zach.</h1>
+        <div className={styles.headshot}>
+          <Image src="/obront.jpg" width="100%" height="100%" alt="Headshot" />
+        </div>
+        <h1 className={styles.title}>Hi, I’m Zach.</h1>
         <p className={styles.body}>I’m a Solidity developer focused on protocol development and security.</p>
         <p className={styles.body}>Most of my time right now is focused on security: participating in <Link href="https://code4rena.com/" target="_blank" rel="noreferrer">Code4rena</Link> contests, and building tooling to better use TLA+ for formal verification.</p>
         <p className={styles.body}>I like to learn by getting my hands dirty and building, and I do my best to share stories and experiments as I go. You can find the nerdy stuff on <Link href="https://mirror.xyz/obront.eth">Mirror</Link>, and more accessible write-ups on <Link href="http://obront.substack.com">my newsletter.</Link></p>
