@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <h1 className={styles.title}>Hi, I’m Zach.</h1>
         <p className={styles.body}>I’m a Solidity developer focused on protocol development and security.</p>
-        <p className={styles.body}>Most of my time right now is focused on security: participating in <Link href="https://code4rena.com/" target="_blank" rel="noreferrer">Code4rena</Link> contests, and building tooling to better use TLA+ for formal verification.</p>
+        <p className={styles.body}>Most of my time right now is spent participating in <Link href="https://code4rena.com/" target="_blank" rel="noreferrer">Code4rena</Link> contests, and building tooling to better use TLA+ for formal verification.</p>
         <p className={styles.body}>I like to learn by getting my hands dirty and building, and I do my best to share stories and experiments as I go. You can find the nerdy stuff on <Link href="https://mirror.xyz/obront.eth">Mirror</Link>, and more accessible write-ups on <Link href="http://obront.substack.com">my newsletter.</Link></p>
         <p className={styles.body}>In my past life, I co-founded <Link href="https://scribemedia.com/">Scribe Media</Link>. We’ve published 1500+ books (my fav: Can’t Hurt Me by David Goggins) and won a number of cool awards like Entrepreneur Magazine’s #1 Best Company Culture in America.</p>
 
